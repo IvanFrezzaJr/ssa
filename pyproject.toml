@@ -19,6 +19,7 @@ ipdb = "*"
 ipython = "*"
 isort = "*"
 pytest-flask = "*"
+pytest-cov = "*"
 
 
 [build-system]
