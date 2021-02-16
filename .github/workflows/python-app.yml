@@ -3,11 +3,6 @@
 
 name: Python application
 
-defaults:
-  run:
-    shell: bash
-    working-directory: ./ssa
-
 on:
   push:
     branches: [ dev ]
