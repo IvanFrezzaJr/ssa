@@ -1,20 +1,15 @@
 {% extends "base.html" %}
 {% import "macros/list_item.html" as list_item %}
 
- {% block top %}
-  <section class="hero is-primary">
+{% block top %}
+<section class="hero is-primary">
     <div class="hero-body">
-      <p class="title">
-        {{ site_name }}
-      </p>
-      <p class="subtitle">
-        {{ site_subtitle }}
-      </p>
+      <p>Sobre</p>
     </div>
   </section>
-  {% endblock top %}
+{% endblock top %}
 
-  {% block main %}
+{% block main %}
   <section class="section">
     <div class="container">
       <div class="columns">
@@ -23,3 +18,4 @@
     </div>
   </section>
   {% endblock main %}
+
